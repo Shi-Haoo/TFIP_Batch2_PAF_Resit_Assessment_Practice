@@ -1,2 +1,4 @@
 TODO: Task 1 - Write the mongo import command here
 mongoimport -hlocalhost --port=27017 -dpaf2Resit -crestaurants --jsonArray restaurants.json
+
+mongoimport --uri "mongodb://mongo:4k5eCwaqezwVpe0DmNfo@containers-us-west-96.railway.app:5911/?authSource=admin" -dpaf2Resit -crestaurants --jsonArray restaurants.json 
